@@ -6,7 +6,7 @@
 .nav-link {
   display: flex;
   align-items: center;
-  max-height: 20vh;
+  height: 80px;
   background-color: #ffffff33;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 768px) {
   .nav-link {
-    max-height: 26vh;
+    height: 150px;
     padding: 24px 12px;
     margin: 15px;
   }
@@ -31,13 +31,6 @@
   .team-logo {
     width: 80px;
     height: 80px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .team-logo {
-    width: 150px;
-    height: 150px;
   }
 }
 
